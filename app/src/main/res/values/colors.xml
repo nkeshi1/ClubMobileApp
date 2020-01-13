@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2B48C1C</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorLightGreen">#DF248B7D</color>
+    <color name="color">#D81B60</color>
+    <color name="colorWhite">#A8FFFFFF</color>
+    <color name="colorSpinner">#9A999494</color>
+    <color name="colorAsh">#A29F9F</color>
+    <color name="colorMainActivity">#EA274B8B</color>
+    <color name="colorDashboardStart">#EA374F7E</color>
+    <color name="colorDashboardEnd">#033FAF</color>
+    <color name="colorStart">#FFFFFF</color>
+    <color name="colorEnd">#929694</color>
+    <color name="colorYellow">#F2B48C1C</color>
+    <color name="colorAccent">#F2B48C1C</color>
+</resources>

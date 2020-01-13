@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/reminderList"
+        style="@style/Widget.AppCompat.ListView.DropDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="8dp"
+        tools:listitem="@layout/reminder_layout" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_reminder_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:tint="#FFFFFF"
+        app:srcCompat="@drawable/ic_add_reminder_black_24dp" />
+
+    <TextView
+        android:id="@+id/non_ReminderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:text="No reminders available"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+</android.support.design.widget.CoordinatorLayout>
